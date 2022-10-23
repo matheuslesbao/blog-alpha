@@ -1,6 +1,6 @@
 {% extends 'partials/body.twig.php'  %}
 
-{% block title %} Pagina não Encontrada {% endblock %}
+{% block title %} Post Single {% endblock %}
 
 {% block body%}
 

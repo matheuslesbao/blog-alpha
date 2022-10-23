@@ -85,7 +85,7 @@ class RouterCore
     {
         $ex = explode('@', $get);
 
-        if (!isset($ex[0]) || !isset($ex[1])) {
+        if (!isset($ex[0]) || !isset($ex[1])) { // se nao encontrar o controller é o method
             (new \app\Controller\MessageController)->message('TITULO', 'Controller é method nao encontrado', 404);
             return;
         }
@@ -96,7 +96,7 @@ class RouterCore
             return;
         }
 
-        if (!method_exists($getController, $ex[1])) {
+        if (!method_exists($getController, $ex[1])) { //verifica se tem o method
             (new \app\Controller\MessageController)->message('TITULO', 'Method Não Encontrada.', 404);
         }
 
