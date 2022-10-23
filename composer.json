@@ -1,0 +1,17 @@
+{
+    "name": "alphard/blog-alpha",
+    "authors": [
+        {
+            "name": "Matheus Lesbao",
+            "email": "matheuss.lesbao@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
