@@ -1,4 +1,6 @@
 {% block post %}
+{% for postagem in postagens %}
+
 <article class="post">
 
     <header>
@@ -24,6 +26,6 @@
         </ul>
     </footer>
 </article>
-
+{% endfor %}
 <!-- Post -->
 {% endblock %}

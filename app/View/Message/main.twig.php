@@ -1,8 +1,8 @@
-{% extends 'partials/body.twig.php'  %}
+{% extends 'Partials/body.twig.php'  %}
 
 {% block title %} Pagina não Encontrada {% endblock %}
 
-{% block body%}
+{% block body %}
 
 <h1>{{title}}</h1>
 <br>

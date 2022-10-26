@@ -6,7 +6,7 @@ $this->get(
 );
 
 $this->get(
-    '/post_single',// url
+    '/post_single', // url
     'PagesController@singlePost' //controller + method
 
 );
